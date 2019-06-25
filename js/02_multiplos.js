@@ -81,3 +81,5 @@ module.exports.extraerMultiplos = extraerMultiplos
 
 let a Datos = []
 mostrarMultiplos(2,aDatos)
+
+
