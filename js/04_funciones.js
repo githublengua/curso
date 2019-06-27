@@ -3,7 +3,7 @@ function calcularSC(x, y) {
 
 for (let i = 0; i < z.length; i++) {
     let  array[i];
-    x=
+    x = I
 }
     
 }
