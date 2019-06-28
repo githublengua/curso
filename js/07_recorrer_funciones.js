@@ -21,6 +21,7 @@ Node
  let restaraizes = (a=0, b=0) =>{
 return.Math.sqrt(a) = Math.sqrt(b)
  }
+ //sqrt = 
 Node
 //funcion lamda se nombra la variable 
 //te quedan partes sin acabar asignacion de funciones y asignacion de funciones arrow

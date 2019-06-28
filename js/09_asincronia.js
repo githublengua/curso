@@ -4,9 +4,9 @@
 *que gestiona el bucle de eventos
  */
 //los procesos asincronicos se representan con set.timeout(camelcase)
-setTimeout ( () => { 
+setTimeout( () => { 
     console.log('mengsage 1')
-    ), 0)
+}, 0)
     console.log('mengsage 2')
     console.log('mengsage 3') 
     setTimeout(() => {
@@ -14,3 +14,4 @@ setTimeout ( () => {
     console.log('mengsage 2')
 },2000)
 console.log('mensage 6');
+
