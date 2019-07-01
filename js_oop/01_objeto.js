@@ -75,7 +75,7 @@ function mostrarParametros(id1,id2)(...)
 let {meses, mesesjap, mesesen} 
  //elegir 2 entre ru es y en 
 let (meses)
-let texto = ^^
+let texto = ``
 for (const mesjap in object) {
     if (object.hasOwnProperty(mesesjap)) {
         const mesesjap = meses[mesesjap];
@@ -90,17 +90,22 @@ switch (key) {
 //+= asi se escriben los acumuladores
 
     case 'es':
-         r = meses
+         r = 'español'
         
         break;
 
     case 'chi' :  
-        r
+        r = 'chino'
         break
-    case 'en' ;
+    case 'en' :
+        r = 'inglés'
     
     default:
-        break 
+        r = break 
+        default:
+            trow new console.error('codigo incorrecto');
+            
+
 }
 //la funcion require vale para referirte a otra archivo 
 

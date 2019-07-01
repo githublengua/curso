@@ -1,0 +1,16 @@
+
+Function meses () {
+    const meses = {'Enero',1, 'Febrero', 'Marzo', 'Marzo', 'Mayo', 'Junio','Julio'}
+    const mesesjap = [enero = 'en japones se dice ichi' 
+    Febrero = 'en japones se dice ichi' 
+    Marzo = 'en japones se dice ichi' 
+    abril = 'en japones se dice ichi' 
+    mayo = 'en japones se dice ichi' 
+    Junio = 'en japones se dice ichi' 
+]
+function mostrarParametros()(...)
+
+for (const mesjap in object) {
+    if (object.hasOwnProperty(mesesjap)) {
+        const mesesjap = meses[mesesjap];
+        texto +='el mes $(meses) en ruso se dice ${mesesjap} \n 
