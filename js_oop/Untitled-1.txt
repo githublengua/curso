@@ -1,16 +1,16 @@
 
-Function meses () {
-    const meses = {'Enero',1, 'Febrero', 'Marzo', 'Marzo', 'Mayo', 'Junio','Julio'}
-    const mesesjap = [enero = 'en japones se dice ichi' 
-    Febrero = 'en japones se dice ichi' 
-    Marzo = 'en japones se dice ichi' 
-    abril = 'en japones se dice ichi' 
-    mayo = 'en japones se dice ichi' 
-    Junio = 'en japones se dice ichi' 
-]
-function mostrarParametros()(...)
+aDatos[aDatos.length] = 32//coloca el valor en la posicion que se indica
+aDatos[aDatos.length] = [26,76]
 
-for (const mesjap in object) {
-    if (object.hasOwnProperty(mesesjap)) {
-        const mesesjap = meses[mesesjap];
-        texto +='el mes $(meses) en ruso se dice ${mesesjap} \n 
+aDatos[0]= 9  
+aDatos[100] = 9 
+console.log(100)
+
+for (let i = 0; i < aDatos.length; i++) {
+    const item = aDatos[i];
+    if(!item){
+        aDatos[i] = parseInt(Math.random() * 100)
+
+    }
+}
+console.log(aDatos)

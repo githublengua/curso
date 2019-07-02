@@ -1,3 +1,6 @@
+ //let intl = require ('intl')
+ //require('intl')
+ 
  let cadena = "esto no es buena practica";
  let otracadena = 'es mejor utilizar comillas si'
  let nuevacadena = `nuevo en ${version}` //template stream.
@@ -24,8 +27,9 @@ for (let i = 0; i < cadena.length; i++) {
     console.log(item)
 }
 //este ...rest(en este caso como quieras)cesta funcion devue en los puntos los parametros que se le asignan despues,rest es un conversor de los parametros que le entran dentro de las comillas , dentro se puede poner la posicion que queremos leer pero tambien podemos buscar por separadores como espacios o comas ,
-let x = cadena.split(' ') join ('')
+let x = cadena.split() 
 console.log(x)
+console.clear;
 //toUppercase poneen mayusculas, 
 //el join es igual que es split.
 
@@ -57,7 +61,8 @@ console.log(numero.toString()) //convierte el numero a tring
 console.log(numero.toFixed(2)) //te redonde a 2 decimales
 console.log(numero.toPrecision(4)) //saca cuatro numeros de precision en este caso se pone entre parentesis
 console.log(numero.toExponential()) //es un numero multiplicado por diez con la base que le insertamos si no decimos nada esta elevado en base 1.
-console.log(numero.toLocaleString()) //
+console.log(numero.toLocaleString('es',{style :'currency' currency : 'EUR'})) //LOCALIZA DATOS Y SACA DATOS A CODIGOS LOCALES
+
 
 
 
