@@ -1,8 +1,9 @@
-//let ob = () // new objet()
-/*
+let ob = () // new objet()
+
 let aDatos = [2,3,4,5,5 ,'pepe'] // new array () un array es un elemento referenciado, guarda datos indexados en un objeto  ,guarda la referencia donde se guarda
             //se pueden hacer arrays convinando cualquier tipo de dato
             //un array es potencialmente infinito ,por eso lo que hay que hacer 
+
 aDatos[aDatos.length] = 32//coloca el valor en la posicion que se indica
 aDatos[aDatos.length] = [26,76]
 
@@ -30,7 +31,7 @@ console.log(aDatos)
 //
 //la implementacion es decir lo que ago 
 
-/* let RandomArray (n = 0) {
+ let RandomArray (n = 0) {
 const r =[]
 for (let i = 0; i < aDatos.length; i++) {
     const item = aDatos[i];
@@ -41,13 +42,20 @@ for (let i = 0; i < aDatos.length; i++) {
     return r
 }
 console.log(String(RamdomArray(54)) */
+
+
+
 //calcular el dni que te pasan por parametro
+
+ 
 /** Funcion random array 
+ * 
+ * 
  *@description da el formato de dni
  * @params {number  | string} dni
  * @return {number} 
  */
-function name(params) {
+Function name(params) {
 }
 function formatodni(dni) {
     if (typeof dni === 'number') {
