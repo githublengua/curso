@@ -87,7 +87,7 @@ console.log(media)
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>esta funcion no la has echo bien
 /*
 function media(aDatos = [] {
-    let i = 0
+    let i = 0cd
      return aDatos.reduce((acumulado, item, index) => {
         i = index
      return acumulado + item
