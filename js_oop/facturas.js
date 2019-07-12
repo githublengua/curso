@@ -74,6 +74,10 @@ Factura.ca
 
 
      //definir una funcion constructora que 
+     //renderizar 
+     //test unitarios
+     //funcion boleana
+     
 
 function Factura(){}
 function Empresa(){}
@@ -82,3 +86,6 @@ function Direccion(){}
 
 
 
+((p)=> {
+    console.log(`${p}sin nombre`)
+})('pepe')

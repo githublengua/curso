@@ -28,7 +28,7 @@ for (let i = 0; i <= limite; i++) {
 
 
 function ciclos() {
-
+ 
     var arrayU = new Array(3);
     var f;
     for (f=0;f<arrayU.length;f++) { // ARRAY LENGTH = 3 = FOR = 0, 1 , 3
@@ -45,7 +45,13 @@ function ciclos() {
   }
   
 
+
+
+
  const factorial = 120
+
+
+
 
 function fact() {
     if (factorial = num) {
@@ -63,7 +69,7 @@ for (let i = 0; i <= limite; i++) {
 }}
 
 }    
-    } else (return console.log('no es un numero'){}}
+    } else (return console.log('no es un numero') {}
 
 
     
@@ -79,3 +85,6 @@ for (let i = 0; i <= factorial; i++) {
     acumulador += (i)
 }
  
+
+
+ 09 introduccion js
