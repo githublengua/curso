@@ -1,4 +1,4 @@
-const { isEntero, isValidNumber }  = require('./01_helper.js')
+const { isEntero, isValidNumber }  = require('./01_helper.spect.js/index.js')
 
 module.exports = class Factorial {
 
