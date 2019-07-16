@@ -1,0 +1,30 @@
+.btn :hover{
+    cursor: pointer;
+}
+
+            div {
+             padding: 16px;
+              width: 50%;
+              height: 250px;
+              background-color: #79d67b; 
+            }
+
+.output{
+    color: bisque,
+
+}
+
+
+let r='iiujh'
+let w=[]
+let z = []
+
+String.fromCharCode(23)
+for (let i = 0; i <r.length; i++) {
+  console.log(i)
+  w.push(w[i])
+}
+for (let i = 0; i < w.length; i++) {
+    console.log(String.fromCharCode(i))  
+}
+console.log(w)
