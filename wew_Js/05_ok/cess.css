@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
     margin: 0;
@@ -17,6 +14,10 @@ header {
 main {
     margin: 2rem;
     min-height: 60vh;
+}
+
+main h2 {
+    margin-bottom: 0;
 }
 
 .container {
@@ -39,6 +40,14 @@ main {
     padding: 2rem 2.5rem;
     border: 2px solid coral;
 }
+
+.output {
+    background-color: bisque;
+    color: brown;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 
 footer {
     min-height: 10vh;

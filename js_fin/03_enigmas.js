@@ -16,10 +16,14 @@ for (let i = 0; i <r.length; i++) {
   w.push(`${r}`.charCodeAt(i)*2)}
   
 for (let i = 0; i < w.length; i++) {
-     z = w.String.fromCharCode(i)
-}
+     z = w }
 
 
 console.log(r)
 console.log(w)
 console.log(z)
+
+
+
+
+
